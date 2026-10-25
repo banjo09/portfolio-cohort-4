@@ -1,0 +1,67 @@
+/* Base styles: small screens first */
+.profile-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Wider screens */
+@media (min-width: 700px) {
+  .profile-layout {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1000px) {
+  .container {
+    width: min(100% - 3rem, 1100px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  font-family: Arial, sans-serif;
+  color: #222222;
+  background-color: #f4f6f8;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #173b67;
+  font-size: 2.6 rem;
+}
+.card {
+  padding: 20px;
+  border: 1px solid #dddddd;
+  margin: 16px 0;
+  border-radius: 12px;
+  background-color: aquamarine;
+}
+
+* { 
+  box-sizing: border-box; 
+} */
